@@ -1,0 +1,15 @@
+div{
+    border: solid 1px whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+h1{
+    text-align: center;
+}
