@@ -42,14 +42,5 @@ console.log(array);
  * Se almacenan los datos solamente cuando esta el session la pagina, la diferencia entre el local es que el local mantiene los datos aunque cierre la pagina.
  */
 
-    //JSON
 
-/**\
- * Resumen:
-
-Tengo un objeto. Lo quiero guardar en local o session, hago JSON.stringify para guardarlo
-
-Quiero traer un objeto de local o session, hago JSON.parse para transformarlo en objeto después de traerlo
-
- */
 

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegador{
+    background-color: #16426A;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.navegador ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.navegador ul li a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #16426A;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.producto img{
+    width: inherit;
+    padding: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #16426A;
+    color: white;
+    cursor: pointer;
+}
+
+.producto span{
+    font-weight: bold;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #16426A;
+    margin: 15px;
+}
+
+.formulario input{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.formulario .btn{
+    background-color: white;
+    color: #16426A;
+}
